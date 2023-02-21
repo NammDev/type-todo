@@ -9,7 +9,7 @@ function TodoList() {
       <div className={styles.todoListContainer}>
         <TaskInput />
         <TaskList />
-        <TaskList />
+        <TaskList doneTaskList />
       </div>
     </div>
   )
